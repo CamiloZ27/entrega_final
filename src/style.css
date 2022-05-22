@@ -1,0 +1,353 @@
+body {
+  margin: 0px;
+  background-color: #000000;
+  font-family: 'Inconsolata', monospace;
+  color: white;
+  background-image: url(Source/img/back.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(46, 93, 223);
+}
+
+a:hover{
+  border-bottom: 1px solid rgb(46, 93, 223);
+  color: rgb(73, 121, 255);
+}
+
+header{
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  height: 38px;
+  background-color: #1a1a1a;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  font-size: 22px;
+  transition: 300ms;
+}
+
+header:hover{
+  box-shadow: 0px 10px 5px -10px #2e2e2e;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  margin-left: 15px;  
+}
+
+.logo img{
+  height: 45px;
+  width: 50px;
+  margin-right: 5px;
+  border-radius: 50%;
+  border: solid #ffffff 2px;
+}
+
+.btnlisten{
+  margin-right: 30px;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: solid 2px #ffffff;
+  border-radius: 5px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+  padding: 5px;
+  transition: 300ms;
+}
+
+.btnlisten:hover{
+  background-color: #1a1a1a;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.contenedorP{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-evenly;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contenedorInfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+  padding: 15px;
+  width: 90%;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.albumFoto{
+  width: 220px;
+  height: 220px;
+  border-radius: 10px;
+}
+
+
+.itemInfoUno .albumFoto,
+.itemInfoTres .albumFoto{
+  box-shadow: 10px 10px 20px -8px #000000;
+}
+
+.itemInfoDos .albumFoto,
+.itemInfoCuatro .albumFoto{
+  box-shadow: -10px 10px 20px -8px #000000;
+}
+
+.divAlign{
+  margin-right: 80px;
+  width: 50%;
+}
+.divAlignDos{
+  margin-left: 150px;
+}
+
+.itemInfoUno{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 70%;
+  padding-left: 100px;
+  box-shadow: 10px 10px 25px -10px #000000;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #613014b2;
+  background-size:cover;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: 300ms;
+}
+
+.itemInfoUno:hover{
+    border: 1px solid #994b1f;
+    transition: 300ms;
+}
+
+.itemInfoDos{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 70%;
+  padding-right: 70px;
+  padding-left: 42px;
+  box-shadow: 10px 10px 25px -10px #000000;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #4b1122b2;
+  background-size:cover;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: 300ms;
+}
+
+.itemInfoDos:hover{
+  border: 1px solid #7c1c39;
+  transition: 300ms;
+}
+
+.itemInfoTres{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 70%;
+  padding-left: 100px;
+  box-shadow: 10px 10px 25px -10px #000000;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #172a5fb9;
+  background-size:cover;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: 300ms;
+}
+
+.itemInfoTres:hover{
+  border: 1px solid #234191;
+  transition: 300ms;
+}
+
+.itemInfoCuatro{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 70%;
+  padding-right: 70px;
+  padding-left: 42px;
+  box-shadow: 10px 10px 25px -10px #000000;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #362d0fc9;
+  background-size:cover;
+  text-align: center;
+  align-items: center;
+  color: #ffffff;
+  border: 1px solid transparent;
+  transition: 300ms;
+}
+
+.itemInfoCuatro:hover{
+  border: 1px solid #6b591dc9;
+  transition: 300ms;
+}
+
+.contenedorReproductorUno{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 45px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.itemReproductorUno{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #252525;
+  margin-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+  background-image: url(Source/img/fondo1.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 15px 15px -15px #ffffff;
+  transition: 300ms;
+}
+
+.itemReproductorDos{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #252525;
+  margin-left: 5px;
+  padding-bottom: 5px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+  background-image: url(Source/img/fondo2.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 15px 15px -15px #ffffff;
+  transition: 300ms;
+}
+
+.contenedorReproductorDos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.itemReproductorTres{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #252525;
+  margin-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+  background-image: url(Source/img/fondo3.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 15px 15px -15px #ffffff;
+  transition: 300ms;
+}
+
+.itemReproductorCuatro{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  border: 1px solid #252525;
+  margin-left: 5px;
+  padding-bottom: 5px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 10px;
+  background-image: url(Source/img/fondo4.jpg);
+  background-size: cover;
+  text-align: center;
+  color: white;
+  box-shadow: 0px 15px 15px -15px #ffffff;
+  transition: 300ms;
+}
+
+.infoReproductor{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+}
+
+
+.itemReproductorUno:hover,
+.itemReproductorDos:hover,
+.itemReproductorTres:hover,
+.itemReproductorCuatro:hover{
+  border: 1px white solid;
+  transition: 300ms;
+}
+
+.audio { 
+  margin-bottom: 7px;
+  margin-top: 1px;
+  width: 350px;
+  height: 40px;
+}
+
+.tubeSpo{
+  display: flex;
+  margin-right: 100px;
+  margin-top: 0px;
+}
+
+.tubeSpo img{
+  margin-left: 5px;
+  border: 2px solid transparent;
+  border-radius: 25px;
+  transition: 300ms;
+}
+
+.tubeSpo img:hover{
+  border: 2px solid white;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 300ms;
+}

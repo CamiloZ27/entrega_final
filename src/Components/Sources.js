@@ -1,0 +1,26 @@
+export {default as AlbumUno} from './../Source/img/album1.jpg'
+export {default as AlbumDos} from './../Source/img/album2.jpg'
+export {default as AlbumTres} from './../Source/img/album3.jpg'
+export {default as AlbumCuatro} from './../Source/img/album4.jpg'
+export {default as LogoY} from './../Source/img/logoY.png'
+export {default as LogoS} from './../Source/img/logoS.png'
+
+export {default as Master}  from './../Source/music/metallica/master.mp3'
+export {default as Orion} from './../Source/music/metallica/orion.mp3'
+export {default as Heroes} from './../Source/music/metallica/heroes.mp3'
+export {default as Sanitarium} from './../Source/music/metallica/sanitarium.mp3'
+
+export {default as Black} from './../Source/music/pearl_jam/black.mp3'
+export {default as Jeremy} from './../Source/music/pearl_jam/jeremy.mp3'
+export {default as Even} from './../Source/music/pearl_jam/even.mp3'
+export {default as Oceans} from './../Source/music/pearl_jam/oceans.mp3'
+
+export {default as Tornado} from './../Source/music/megadeth/tornado.mp3'
+export {default as Wars} from './../Source/music/megadeth/wars.mp3'
+export {default as Lucretia} from './../Source/music/megadeth/lucretia.mp3'
+export {default as Rust} from './../Source/music/megadeth/rust.mp3'
+
+export {default as Sweet} from './../Source/music/guns/sweet.mp3'
+export {default as Jungle} from './../Source/music/guns/jungle.mp3'
+export {default as City} from './../Source/music/guns/city.mp3'
+export {default as Easy} from './../Source/music/guns/easy.mp3'
